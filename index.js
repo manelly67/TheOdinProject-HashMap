@@ -25,17 +25,6 @@ let array = test.entries();
 console.log(array);
 console.log(array.length);
 
-let search = 'trock';
-console.log(`the value for ${search} is: ${test.get(search)} placed in ${test.atHashMap(search)}`);
-console.log(`the has(${search})  is: ${test.has(search)}`);
-test.remove(search);
-search = 'elephant';
-console.log(`the value for ${search} is: ${test.get(search)} placed in ${test.atHashMap(search)}`);
-console.log(`the has(${search})  is: ${test.has(search)}`);
-test.remove(search);
-
-array = test.entries();
-console.log(array);
 
 // practice with HashSet
 
@@ -61,15 +50,6 @@ let arrayKeys = testSet.entries();
 console.log(arrayKeys);
 console.log(arrayKeys.length);
 
-search = 'trock';
-console.log(`the search for ${search} is: ${testSet.has(search)} placed in ${testSet.atHashSet(search)}`);
-testSet.remove(search);
-search = 'elephant';
-console.log(`the search for ${search} is: ${testSet.has(search)} placed in ${testSet.atHashSet(search)}`);
-testSet.remove(search);
-
-arrayKeys = testSet.entries();
-console.log(arrayKeys);
 
 
 
